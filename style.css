@@ -9,11 +9,12 @@
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: 10px;
 }
 
-.container {
-  max-width: 1720px;
-  min-width: 340px;
+.main-wrapper {
+  max-width: 1440px;
+  min-height: 100vh;
   margin: 0 auto;
   background-color: seashell;
 }
@@ -41,6 +42,7 @@ body {
 .header > ul > li > a {
   text-decoration: none;
   margin-left: 15px;
+  font-size: 1.1rem;
 }
 
 .logo-img {
@@ -50,7 +52,7 @@ body {
   align-self: start;
 }
 
-.categories {
+.category-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -59,19 +61,19 @@ body {
   column-gap: 20px;
 }
 
-.category {
+.category-card {
   color: #333;
   text-align: center;
   margin: 10px 0;
-  width: 20em;
+  width: 20rem;
 }
 
-.category h2 {
+.category-card h2 {
   font-size: 1.25rem;
   padding: 20px 10px;
 }
 
-.category h4 {
+.category-card h4 {
   font-size: 0.65rem;
   line-height: 2;
   height: 12em;
@@ -104,13 +106,13 @@ body {
   text-transform: uppercase;
 }
 
-.collars {
+.card-each {
   background-color: #073b3a;
   border-radius: 20px 20px 0 0;
   color: antiquewhite;
 }
 
-.collars > h2 {
+.card-each > h2 {
   font-size: 2rem;
   text-transform: uppercase;
 }

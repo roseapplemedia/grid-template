@@ -43,6 +43,7 @@ body {
   text-decoration: none;
   margin-left: 15px;
   font-size: 1.1rem;
+  color: whitesmoke;
 }
 
 .logo-img {
@@ -57,31 +58,26 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 20px 30px;
-  column-gap: 20px;
+  margin: 20px 15px;
+  column-gap: 15px;
 }
 
 .category-card {
   color: #333;
   text-align: center;
   margin: 10px 0;
-  width: 20rem;
-}
-
-.category-card h2 {
-  font-size: 1.25rem;
-  padding: 20px 10px;
+  width: 15rem;
 }
 
 .category-card h4 {
   font-size: 0.65rem;
   line-height: 2;
   height: 12em;
-  font-size: 0.65rem;
+  font-size: 0.55rem;
   text-align: left;
 }
-.category__image {
-  width: 150px;
+.card__image {
+  width: 100px;
   margin-bottom: 20px;
   border-radius: 50%;
 }
@@ -94,12 +90,13 @@ body {
 
 .category-size {
   margin-bottom: 15px;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
 }
 
 .category-button {
   background-color: cornflowerblue;
   padding: 10px 20px;
+  font-size: 0.75rem;
   border: none;
   border-radius: 10px;
   color: bisque;
@@ -109,12 +106,14 @@ body {
 .card-each {
   background-color: #073b3a;
   border-radius: 20px 20px 0 0;
-  color: antiquewhite;
+  color: whitesmoke;
 }
 
 .card-each > h2 {
   font-size: 2rem;
   text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 20px 10px;
 }
 
 .dog-collars {

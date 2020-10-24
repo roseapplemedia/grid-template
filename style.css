@@ -11,15 +11,15 @@
 body {
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 	font-size: 10px;
+	background-color: #8ed0b5;
 }
 
 header {
-	margin-bottom: 2rem;
+	margin: 2rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	place-items: center;
-	border: 1px solid blue;
 }
 
 .nav-links {
@@ -36,7 +36,7 @@ header {
 }
 
 .logo-img {
-	max-width: 150px;
+	max-width: 250px;
 	margin-left: 2rem;
 }
 
@@ -45,7 +45,6 @@ header {
 	justify-content: space-around;
 	flex-flow: row wrap;
 	grid-template-columns: auto auto;
-	border: 1px solid red;
 }
 
 .card-image {

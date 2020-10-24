@@ -1,135 +1,118 @@
+/** @format */
+
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 10px;
-  margin: 2rem;
-}
-
-.dog-collars {
-  background-color: #ddb771;
-}
-.cat-collars {
-  background-color: #f46036;
-}
-
-.leashes {
-  background-color: #655356;
-}
-
-.bandanas {
-  background-color: #235789;
-}
-
-.flowers {
-  background-color: #c1292e;
-}
-
-.bows {
-  background-color: yellowgreen;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-size: 10px;
 }
 
 header {
-  margin-bottom: 8rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  place-items: center;
+	margin-bottom: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	place-items: center;
+	border: 1px solid blue;
 }
 
 .nav-links {
-  display: flex;
-  list-style: none;
-  align-items: center;
+	display: flex;
+	list-style: none;
 }
 
 .nav-links li a {
-  margin-left: 3rem;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  text-decoration: none;
+	margin-left: 2rem;
+	font-size: 0.85rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 2rem;
 }
 
 .logo-img {
-  max-width: 450px;
+	max-width: 150px;
+	margin-left: 2rem;
 }
 
-.main-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-  grid-template-rows: repeat(2, auto-fill);
-  min-height: 100vh;
-  place-items: center;
+.body-grid {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	grid-template-columns: auto auto;
+	border: 1px solid red;
 }
 
-.card__image {
-  width: 100%;
-  border-radius: 50%;
+.card-image {
+	width: 100%;
+	border-radius: 50%;
+	margin-top: 2.5rem;
+	background-color: coral;
 }
 
 .main-item {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 350px;
-  margin-bottom: 3rem;
-  justify-content: center;
-  /* align-items: center; */
-  box-shadow: 0px 2px 20px gray;
-  transition: 250ms all ease-in-out;
-  cursor: pointer;
-  border-radius: 20px;
-  padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 20rem;
+	margin-bottom: 3rem;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 2px 20px gray;
+	transition: 250ms all ease-in-out;
+	cursor: pointer;
+	border-radius: 20px;
+	padding: 1rem;
+	background-color: blueviolet;
 }
 
 .main-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 2px 40px turquoise;
+	transform: scale(1.05);
+	box-shadow: 0px 2px 40px turquoise;
 }
 .main-item > h2 {
-  text-transform: uppercase;
-  margin-bottom: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
 }
 
 .category-tag {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: white;
-  padding: 0.5rem 1.3rem 0.5rem 1rem;
-  background-color: turquoise;
-  text-transform: uppercase;
-  position: absolute;
-  align-self: start;
-  z-index: 1;
-  top: 1.2rem;
-  left: 0;
-  border-radius: 0 2rem 2rem 0;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: white;
+	padding: 0.5rem 1.3rem 0.5rem 1rem;
+	background-color: turquoise;
+	text-transform: uppercase;
+	position: absolute;
+	align-self: start;
+	z-index: 1;
+	top: 1.2rem;
+	left: 0;
+	border-radius: 0 2rem 2rem 0;
 }
 
 .card-desc {
-  display: flex;
-  font-size: 0.7rem;
-  flex-direction: column;
-  margin: 2rem;
-  padding-left: 1rem;
-  line-height: 1.5;
+	display: flex;
+	font-size: 0.7rem;
+	flex-direction: column;
+	margin: 2rem;
+	padding-left: 1rem;
+	line-height: 1.5;
+	background-color: red;
 }
 
 .card-button {
-  padding: 0.5rem 0.75rem;
-  font-size: 0.75rem;
-  background-color: turquoise;
-  font-weight: bold;
-  border: none;
-  width: 175px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  align-self: center;
+	padding: 0.5rem 0.75rem;
+	font-size: 0.75rem;
+	background-color: tomato;
+	font-weight: bold;
+	border: none;
+	width: 175px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	align-self: center;
 }
